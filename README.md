@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solução](./index.html)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://social-links-profile-git-main-weslleyvieira-projects.vercel.app/)
 
 ### Built with
 
