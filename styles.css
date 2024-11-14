@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Inter-Variable";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+}
+
+body {
+  font-family: "Inter-Variable", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vh;
+  height: 70vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 2vh;
+}
+
+.card img {
+  border-radius: 50px;
+  width: 100px;
+  margin-bottom: 1vh;
+}
+
+.card h1 {
+  margin-bottom: 1.5vh;
+  font-size: 20px;
+}
+
+.card h2 {
+  margin-top: 0vh;
+  color: hsl(75, 94%, 57%);
+  font-size: 13px;
+}
+
+.card p {
+  color: lightgray;
+  font-size: 12px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5vh;
+  margin-top: 1.5vh;
+  width: 30vh;
+  height: 4.5vh;
+  border-color: hsl(0, 0%, 20%);
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
