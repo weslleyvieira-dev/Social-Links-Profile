@@ -8,10 +8,9 @@ body {
   background-color: hsl(0, 0%, 8%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  align-content: center;
   margin: 0;
 }
 
@@ -22,8 +21,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 360px;
-  height: 590px;
+  width: min(90vw, 360px);
+  height: min(90vh, 590px);
   border-radius: 10px;
   z-index: 1;
 }
@@ -101,19 +100,4 @@ footer {
 .attribution a:hover {
   color: hsl(228, 45%, 64%);
   text-decoration: underline;
-}
-
-@media (max-width: 425px) {
-  .card {
-    height: 64%;
-    width: 87%;
-  }
-
-  .buttons a {
-    width: 88%;
-  }
-
-  button {
-    height: 48px;
-  }
 }
